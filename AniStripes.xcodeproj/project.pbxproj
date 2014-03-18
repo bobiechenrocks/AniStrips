@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		681DCD2418D84BBC003EC5A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681DCD2318D84BBC003EC5A7 /* Foundation.framework */; };
+		681DCD2618D84BBC003EC5A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681DCD2518D84BBC003EC5A7 /* CoreGraphics.framework */; };
+		681DCD2818D84BBC003EC5A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681DCD2718D84BBC003EC5A7 /* UIKit.framework */; };
+		681DCD2E18D84BBC003EC5A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD2C18D84BBC003EC5A7 /* InfoPlist.strings */; };
+		681DCD3018D84BBC003EC5A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 681DCD2F18D84BBC003EC5A7 /* main.m */; };
+		681DCD3418D84BBC003EC5A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 681DCD3318D84BBC003EC5A7 /* AppDelegate.m */; };
+		681DCD3618D84BBC003EC5A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD3518D84BBC003EC5A7 /* Images.xcassets */; };
+		681DCD3D18D84BBC003EC5A7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681DCD3C18D84BBC003EC5A7 /* XCTest.framework */; };
+		681DCD3E18D84BBC003EC5A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681DCD2318D84BBC003EC5A7 /* Foundation.framework */; };
+		681DCD3F18D84BBC003EC5A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681DCD2718D84BBC003EC5A7 /* UIKit.framework */; };
+		681DCD4718D84BBC003EC5A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD4518D84BBC003EC5A7 /* InfoPlist.strings */; };
+		681DCD4918D84BBC003EC5A7 /* AniStripesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681DCD4818D84BBC003EC5A7 /* AniStripesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		681DCD4018D84BBC003EC5A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 681DCD1818D84BBC003EC5A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 681DCD1F18D84BBC003EC5A7;
+			remoteInfo = AniStripes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		681DCD2018D84BBC003EC5A7 /* AniStripes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniStripes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		681DCD2318D84BBC003EC5A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		681DCD2518D84BBC003EC5A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		681DCD2718D84BBC003EC5A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		681DCD2B18D84BBC003EC5A7 /* AniStripes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AniStripes-Info.plist"; sourceTree = "<group>"; };
+		681DCD2D18D84BBC003EC5A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		681DCD2F18D84BBC003EC5A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		681DCD3118D84BBC003EC5A7 /* AniStripes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AniStripes-Prefix.pch"; sourceTree = "<group>"; };
+		681DCD3218D84BBC003EC5A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		681DCD3318D84BBC003EC5A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		681DCD3518D84BBC003EC5A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		681DCD3B18D84BBC003EC5A7 /* AniStripesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniStripesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		681DCD3C18D84BBC003EC5A7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		681DCD4418D84BBC003EC5A7 /* AniStripesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AniStripesTests-Info.plist"; sourceTree = "<group>"; };
+		681DCD4618D84BBC003EC5A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		681DCD4818D84BBC003EC5A7 /* AniStripesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AniStripesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		681DCD1D18D84BBC003EC5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681DCD2618D84BBC003EC5A7 /* CoreGraphics.framework in Frameworks */,
+				681DCD2818D84BBC003EC5A7 /* UIKit.framework in Frameworks */,
+				681DCD2418D84BBC003EC5A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681DCD3818D84BBC003EC5A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681DCD3D18D84BBC003EC5A7 /* XCTest.framework in Frameworks */,
+				681DCD3F18D84BBC003EC5A7 /* UIKit.framework in Frameworks */,
+				681DCD3E18D84BBC003EC5A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		681DCD1718D84BBC003EC5A7 = {
+			isa = PBXGroup;
+			children = (
+				681DCD2918D84BBC003EC5A7 /* AniStripes */,
+				681DCD4218D84BBC003EC5A7 /* AniStripesTests */,
+				681DCD2218D84BBC003EC5A7 /* Frameworks */,
+				681DCD2118D84BBC003EC5A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		681DCD2118D84BBC003EC5A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				681DCD2018D84BBC003EC5A7 /* AniStripes.app */,
+				681DCD3B18D84BBC003EC5A7 /* AniStripesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		681DCD2218D84BBC003EC5A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				681DCD2318D84BBC003EC5A7 /* Foundation.framework */,
+				681DCD2518D84BBC003EC5A7 /* CoreGraphics.framework */,
+				681DCD2718D84BBC003EC5A7 /* UIKit.framework */,
+				681DCD3C18D84BBC003EC5A7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		681DCD2918D84BBC003EC5A7 /* AniStripes */ = {
+			isa = PBXGroup;
+			children = (
+				681DCD3218D84BBC003EC5A7 /* AppDelegate.h */,
+				681DCD3318D84BBC003EC5A7 /* AppDelegate.m */,
+				681DCD3518D84BBC003EC5A7 /* Images.xcassets */,
+				681DCD2A18D84BBC003EC5A7 /* Supporting Files */,
+			);
+			path = AniStripes;
+			sourceTree = "<group>";
+		};
+		681DCD2A18D84BBC003EC5A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681DCD2B18D84BBC003EC5A7 /* AniStripes-Info.plist */,
+				681DCD2C18D84BBC003EC5A7 /* InfoPlist.strings */,
+				681DCD2F18D84BBC003EC5A7 /* main.m */,
+				681DCD3118D84BBC003EC5A7 /* AniStripes-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		681DCD4218D84BBC003EC5A7 /* AniStripesTests */ = {
+			isa = PBXGroup;
+			children = (
+				681DCD4818D84BBC003EC5A7 /* AniStripesTests.m */,
+				681DCD4318D84BBC003EC5A7 /* Supporting Files */,
+			);
+			path = AniStripesTests;
+			sourceTree = "<group>";
+		};
+		681DCD4318D84BBC003EC5A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				681DCD4418D84BBC003EC5A7 /* AniStripesTests-Info.plist */,
+				681DCD4518D84BBC003EC5A7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		681DCD1F18D84BBC003EC5A7 /* AniStripes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681DCD4C18D84BBC003EC5A7 /* Build configuration list for PBXNativeTarget "AniStripes" */;
+			buildPhases = (
+				681DCD1C18D84BBC003EC5A7 /* Sources */,
+				681DCD1D18D84BBC003EC5A7 /* Frameworks */,
+				681DCD1E18D84BBC003EC5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AniStripes;
+			productName = AniStripes;
+			productReference = 681DCD2018D84BBC003EC5A7 /* AniStripes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		681DCD3A18D84BBC003EC5A7 /* AniStripesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 681DCD4F18D84BBC003EC5A7 /* Build configuration list for PBXNativeTarget "AniStripesTests" */;
+			buildPhases = (
+				681DCD3718D84BBC003EC5A7 /* Sources */,
+				681DCD3818D84BBC003EC5A7 /* Frameworks */,
+				681DCD3918D84BBC003EC5A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				681DCD4118D84BBC003EC5A7 /* PBXTargetDependency */,
+			);
+			name = AniStripesTests;
+			productName = AniStripesTests;
+			productReference = 681DCD3B18D84BBC003EC5A7 /* AniStripesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		681DCD1818D84BBC003EC5A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Bobie Chen";
+				TargetAttributes = {
+					681DCD3A18D84BBC003EC5A7 = {
+						TestTargetID = 681DCD1F18D84BBC003EC5A7;
+					};
+				};
+			};
+			buildConfigurationList = 681DCD1B18D84BBC003EC5A7 /* Build configuration list for PBXProject "AniStripes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 681DCD1718D84BBC003EC5A7;
+			productRefGroup = 681DCD2118D84BBC003EC5A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				681DCD1F18D84BBC003EC5A7 /* AniStripes */,
+				681DCD3A18D84BBC003EC5A7 /* AniStripesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		681DCD1E18D84BBC003EC5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681DCD2E18D84BBC003EC5A7 /* InfoPlist.strings in Resources */,
+				681DCD3618D84BBC003EC5A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681DCD3918D84BBC003EC5A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681DCD4718D84BBC003EC5A7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		681DCD1C18D84BBC003EC5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681DCD3418D84BBC003EC5A7 /* AppDelegate.m in Sources */,
+				681DCD3018D84BBC003EC5A7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		681DCD3718D84BBC003EC5A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				681DCD4918D84BBC003EC5A7 /* AniStripesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		681DCD4118D84BBC003EC5A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 681DCD1F18D84BBC003EC5A7 /* AniStripes */;
+			targetProxy = 681DCD4018D84BBC003EC5A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		681DCD2C18D84BBC003EC5A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681DCD2D18D84BBC003EC5A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		681DCD4518D84BBC003EC5A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				681DCD4618D84BBC003EC5A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		681DCD4A18D84BBC003EC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		681DCD4B18D84BBC003EC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		681DCD4D18D84BBC003EC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AniStripes/AniStripes-Prefix.pch";
+				INFOPLIST_FILE = "AniStripes/AniStripes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		681DCD4E18D84BBC003EC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AniStripes/AniStripes-Prefix.pch";
+				INFOPLIST_FILE = "AniStripes/AniStripes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		681DCD5018D84BBC003EC5A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AniStripes.app/AniStripes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AniStripes/AniStripes-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AniStripesTests/AniStripesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		681DCD5118D84BBC003EC5A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AniStripes.app/AniStripes";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AniStripes/AniStripes-Prefix.pch";
+				INFOPLIST_FILE = "AniStripesTests/AniStripesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		681DCD1B18D84BBC003EC5A7 /* Build configuration list for PBXProject "AniStripes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681DCD4A18D84BBC003EC5A7 /* Debug */,
+				681DCD4B18D84BBC003EC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		681DCD4C18D84BBC003EC5A7 /* Build configuration list for PBXNativeTarget "AniStripes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681DCD4D18D84BBC003EC5A7 /* Debug */,
+				681DCD4E18D84BBC003EC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		681DCD4F18D84BBC003EC5A7 /* Build configuration list for PBXNativeTarget "AniStripesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				681DCD5018D84BBC003EC5A7 /* Debug */,
+				681DCD5118D84BBC003EC5A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 681DCD1818D84BBC003EC5A7 /* Project object */;
+}
