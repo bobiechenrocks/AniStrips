@@ -19,6 +19,17 @@
 		681DCD3F18D84BBC003EC5A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 681DCD2718D84BBC003EC5A7 /* UIKit.framework */; };
 		681DCD4718D84BBC003EC5A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD4518D84BBC003EC5A7 /* InfoPlist.strings */; };
 		681DCD4918D84BBC003EC5A7 /* AniStripesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 681DCD4818D84BBC003EC5A7 /* AniStripesTests.m */; };
+		681DCD5318D84BD8003EC5A7 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD5218D84BD8003EC5A7 /* Storyboard.storyboard */; };
+		681DCD5618D84CA5003EC5A7 /* BCAniStripesMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681DCD5518D84CA5003EC5A7 /* BCAniStripesMainViewController.m */; };
+		681DCD5B18D85004003EC5A7 /* BCAniStripesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 681DCD5A18D85004003EC5A7 /* BCAniStripesCell.m */; };
+		681DCD6418D85291003EC5A7 /* 01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD5D18D85291003EC5A7 /* 01.jpg */; };
+		681DCD6518D85291003EC5A7 /* 02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD5E18D85291003EC5A7 /* 02.jpg */; };
+		681DCD6618D85291003EC5A7 /* 03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD5F18D85291003EC5A7 /* 03.jpg */; };
+		681DCD6718D85291003EC5A7 /* 04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD6018D85291003EC5A7 /* 04.jpg */; };
+		681DCD6818D85291003EC5A7 /* 05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD6118D85291003EC5A7 /* 05.jpg */; };
+		681DCD6918D85291003EC5A7 /* 06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD6218D85291003EC5A7 /* 06.jpg */; };
+		681DCD6A18D85291003EC5A7 /* stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = 681DCD6318D85291003EC5A7 /* stripe.png */; };
+		681DCD6D18D854D2003EC5A7 /* BCAniStripesScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 681DCD6C18D854D2003EC5A7 /* BCAniStripesScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +59,20 @@
 		681DCD4418D84BBC003EC5A7 /* AniStripesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AniStripesTests-Info.plist"; sourceTree = "<group>"; };
 		681DCD4618D84BBC003EC5A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		681DCD4818D84BBC003EC5A7 /* AniStripesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AniStripesTests.m; sourceTree = "<group>"; };
+		681DCD5218D84BD8003EC5A7 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		681DCD5418D84CA5003EC5A7 /* BCAniStripesMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAniStripesMainViewController.h; sourceTree = "<group>"; };
+		681DCD5518D84CA5003EC5A7 /* BCAniStripesMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAniStripesMainViewController.m; sourceTree = "<group>"; };
+		681DCD5918D85004003EC5A7 /* BCAniStripesCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAniStripesCell.h; sourceTree = "<group>"; };
+		681DCD5A18D85004003EC5A7 /* BCAniStripesCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAniStripesCell.m; sourceTree = "<group>"; };
+		681DCD5D18D85291003EC5A7 /* 01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 01.jpg; path = AniStripes/images/01.jpg; sourceTree = "<group>"; };
+		681DCD5E18D85291003EC5A7 /* 02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 02.jpg; path = AniStripes/images/02.jpg; sourceTree = "<group>"; };
+		681DCD5F18D85291003EC5A7 /* 03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 03.jpg; path = AniStripes/images/03.jpg; sourceTree = "<group>"; };
+		681DCD6018D85291003EC5A7 /* 04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 04.jpg; path = AniStripes/images/04.jpg; sourceTree = "<group>"; };
+		681DCD6118D85291003EC5A7 /* 05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 05.jpg; path = AniStripes/images/05.jpg; sourceTree = "<group>"; };
+		681DCD6218D85291003EC5A7 /* 06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 06.jpg; path = AniStripes/images/06.jpg; sourceTree = "<group>"; };
+		681DCD6318D85291003EC5A7 /* stripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stripe.png; path = AniStripes/images/stripe.png; sourceTree = "<group>"; };
+		681DCD6B18D854D2003EC5A7 /* BCAniStripesScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCAniStripesScrollViewController.h; sourceTree = "<group>"; };
+		681DCD6C18D854D2003EC5A7 /* BCAniStripesScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCAniStripesScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +102,9 @@
 		681DCD1718D84BBC003EC5A7 = {
 			isa = PBXGroup;
 			children = (
+				681DCD5218D84BD8003EC5A7 /* Storyboard.storyboard */,
 				681DCD2918D84BBC003EC5A7 /* AniStripes */,
+				681DCD5C18D85257003EC5A7 /* images */,
 				681DCD4218D84BBC003EC5A7 /* AniStripesTests */,
 				681DCD2218D84BBC003EC5A7 /* Frameworks */,
 				681DCD2118D84BBC003EC5A7 /* Products */,
@@ -109,6 +136,12 @@
 			children = (
 				681DCD3218D84BBC003EC5A7 /* AppDelegate.h */,
 				681DCD3318D84BBC003EC5A7 /* AppDelegate.m */,
+				681DCD5418D84CA5003EC5A7 /* BCAniStripesMainViewController.h */,
+				681DCD5518D84CA5003EC5A7 /* BCAniStripesMainViewController.m */,
+				681DCD5918D85004003EC5A7 /* BCAniStripesCell.h */,
+				681DCD5A18D85004003EC5A7 /* BCAniStripesCell.m */,
+				681DCD6B18D854D2003EC5A7 /* BCAniStripesScrollViewController.h */,
+				681DCD6C18D854D2003EC5A7 /* BCAniStripesScrollViewController.m */,
 				681DCD3518D84BBC003EC5A7 /* Images.xcassets */,
 				681DCD2A18D84BBC003EC5A7 /* Supporting Files */,
 			);
@@ -142,6 +175,20 @@
 				681DCD4518D84BBC003EC5A7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		681DCD5C18D85257003EC5A7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				681DCD5D18D85291003EC5A7 /* 01.jpg */,
+				681DCD5E18D85291003EC5A7 /* 02.jpg */,
+				681DCD5F18D85291003EC5A7 /* 03.jpg */,
+				681DCD6018D85291003EC5A7 /* 04.jpg */,
+				681DCD6118D85291003EC5A7 /* 05.jpg */,
+				681DCD6218D85291003EC5A7 /* 06.jpg */,
+				681DCD6318D85291003EC5A7 /* stripe.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +266,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681DCD6618D85291003EC5A7 /* 03.jpg in Resources */,
+				681DCD6518D85291003EC5A7 /* 02.jpg in Resources */,
+				681DCD6818D85291003EC5A7 /* 05.jpg in Resources */,
+				681DCD6918D85291003EC5A7 /* 06.jpg in Resources */,
 				681DCD2E18D84BBC003EC5A7 /* InfoPlist.strings in Resources */,
 				681DCD3618D84BBC003EC5A7 /* Images.xcassets in Resources */,
+				681DCD6718D85291003EC5A7 /* 04.jpg in Resources */,
+				681DCD6418D85291003EC5A7 /* 01.jpg in Resources */,
+				681DCD6A18D85291003EC5A7 /* stripe.png in Resources */,
+				681DCD5318D84BD8003EC5A7 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +294,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				681DCD5B18D85004003EC5A7 /* BCAniStripesCell.m in Sources */,
 				681DCD3418D84BBC003EC5A7 /* AppDelegate.m in Sources */,
+				681DCD6D18D854D2003EC5A7 /* BCAniStripesScrollViewController.m in Sources */,
+				681DCD5618D84CA5003EC5A7 /* BCAniStripesMainViewController.m in Sources */,
 				681DCD3018D84BBC003EC5A7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
